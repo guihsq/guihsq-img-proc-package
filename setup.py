@@ -14,6 +14,8 @@ setup(
     description="Image Processing Package - Larning to do packages",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="project_link",
-    packages=find_packages()
+    url="https://github.com/guihsq/guihsq-img-proc-package",
+    packages=find_packages(),
+    install_requires=requirements,
+    python_requires=">=3.5"
 )
